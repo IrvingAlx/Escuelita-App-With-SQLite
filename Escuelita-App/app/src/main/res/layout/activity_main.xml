@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="365dp"
+        android:layout_height="664dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="34dp"
+        android:divider="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="293dp"
+            android:layout_height="71dp"
+            android:text="Escuelita Ibero"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="75dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="366dp"
+            android:layout_height="215dp"
+            app:srcCompat="@drawable/ibero" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="75dp" />
+
+        <Button
+            android:id="@+id/botonControl"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#EF4044"
+            android:text="Control Escolar"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/botonMenuMaestro"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#EF4044"
+            android:text="Menu Profesores"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/botonMenuAlumnos"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#EF4044"
+            android:text="Menu Alumnos"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="sexoItems">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    <string name="app_name">Escuelita</string>
+</resources>
